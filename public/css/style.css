@@ -1,0 +1,75 @@
+/*
+	CSS by iModDesign
+	Author URI: http://imoddesign.com;
+*/
+
+/* clear bootstrap style */
+a {color:#fff;}
+a:hover, a:focus {text-decoration:none;}
+.navbar {border:none;}
+.nav>li>a:hover, .nav>li>a:focus {background:none;}
+.nav>li>a:hover {color:#fff000;}
+.container {padding:0;}
+h1,h2,h3,h4,h5,h6,.navbar>.container .navbar-brand {margin:0;}
+.clear-pm {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
+
+/* icon */
+.icon-l {float:left;padding-left:35px;}
+.icon-r {float:right;}
+.icon-secure {background:url(../img/icon-secure.png) no-repeat left center;}
+.icon-badprofile {background:url(../img/icon-bad-credit.png) no-repeat left center;}
+.icon-getstart {background:url(../img/icon-get-started.png) no-repeat left center;}
+
+/* logo */
+.logo {padding:0 0 0 1%;text-align:center;display:block;}
+
+/* main style */
+body {background:#F8F8F8;}
+.box-sh {box-shadow:0 0 40px rgba(189, 189, 189, 0.5);}
+.navbar {margin:0;}
+.navbar .container {padding:3% 0;background:#033088;}
+
+/* border-bottom color @ steps */
+.bt-line-blue {border-bottom:10px solid #0a65b9;}
+.bt-line-lblue {border-bottom:10px solid #2e88db;}
+
+/* steps */
+.steps .container {height:88px;z-index:999;position:relative;background-color:#eee;-webkit-box-shadow: 0 1px rgba(0,0,0,.13);-moz-box-shadow: 0 1px rgba(0,0,0,.13);box-shadow: 0 1px rgba(0,0,0,.13);background-image: -webkit-linear-gradient(bottom, #e3e3e3, #ececec);background-image: -moz-linear-gradient(bottom, #e3e3e3, #ececec);background-image: -o-linear-gradient(bottom, #e3e3e3, #ececec);background-image: linear-gradient(to top, #e3e3e3, #ececec);}
+.steps .row {padding:0 15px;margin:0;}
+.steps ul {list-style:none;float:left;width:100.1%;padding:0;margin:0;display:-moz-box;display:-ms-flexbox;display:flex;z-index:0;position:relative;}
+.steps li {padding:0px 0 1px;background:url(../img/step-seperate.png) no-repeat right center;}
+.steps li:last-child {background:none;}
+.steps .title {padding-left:0;margin:17px 0;float:left;}
+.steps .title h3 {font-size:20px;font-weight:bold;color:#5ac11e;text-shadow:0 1px 0 #fff;float:left;display:-webkit-flex;}
+.steps .desc {padding:0.6em 0;}
+.steps .desc p {font-size:12px;margin:0;color:#666;}
+
+/* cpntent */
+.content .container {background:#f7f7f9;padding:2.5% 1.2%;}
+.content .title {font-size:1.5em;font-weight:bold;color:#2E88DB;margin:0 0 0.65em;}
+.content .box-content {margin:0 0 2em;}
+.content .box-content p {font-size:13px;}
+
+/* apply form */      
+.apply-form .carousel-caption {left:50%;right:0;bottom:0;height:100%;}
+.apply-form .form-group {border-top-left-radius:10px;border-top-right-radius:10px;border:1px solid #ece9d6;border-bottom:none;margin-bottom:0;box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;position:absolute;bottom:0;height:50%;background:url(../img/apply-form-bg.gif) repeat 0 0;box-shadow:0 36px 40px -7px #B3AFAF, 0 1px 0 #F0F0F0 inset;padding:50px 15px 0;}
+.apply-form .form-group h2,
+.apply-form .form-group h3 {text-shadow:none;font-weight:bold;}
+.apply-form .form-group h3 {color:#3b3b3b;}
+.apply-form .form-group h2 {color:#ff900d;}
+.btn-apply {-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #6ccd13;-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.42), inset 0 2px #90dc4a;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.42), inset 0 2px #90dc4a;box-shadow: 0 1px 1px rgba(0,0,0,.42), inset 0 2px #90dc4a;border: solid 1px #5bad0f;
+	background-image: -webkit-linear-gradient(bottom, #5dba27, #50d802);background-image: -moz-linear-gradient(bottom, #5dba27, #50d802);background-image: -o-linear-gradient(bottom, #5dba27, #50d802);background-image: linear-gradient(to top, #5dba27, #50d802);display: inline-block;margin: 30px 0 0;padding: 9px 10px;color:#fff;font-size:24px;font-weight:bold;text-shadow:0 1px 2px #5A5A5A;}
+.btn-apply:hover {color:#eee;transition:.6s all linear;}
+
+
+/* footer */
+footer .container {background:url(../img/footer-bg.gif) repeat 0 0 #555;padding:2% 0;}
+footer .nav {width:100%;}
+footer .nav li {float:none;display:inline-block;}
+footer .navbar-collapse {text-align:center;}
+.copyright {text-align:center;color:#fff;}
+
+@media (min-width:1200px){
+	.container {width:980px;}
+}

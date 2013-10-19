@@ -1,0 +1,2 @@
+<a href="{{ $edit_url }}" class="btn btn-mini"><i class="icon-pencil"></i> Edit</a>&nbsp;
+<a href="{{ $delete_url }}" onclick="if(!confirm('Delete?')) { return false; } else { return true; }" class="btn btn-mini btn-danger"><i class="icon-trash"></i> Delete</a>
